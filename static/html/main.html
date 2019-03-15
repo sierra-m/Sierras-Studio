@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sierra's Studio</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light shadow-sm" id="navbar">
+    <a class="navbar-brand" href="/home">
+        <img src="/icon/android-icon-192x192.png" alt="Sierra Studios" width="30px" height="30px"
+             class="d-inline-block align-top">
+        Sierra's Studio
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/files">Files</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid d-block d-xs-none pt-4 welcome-view bg-dark">
+    <div class="container bg-dark">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="display-1 text-white mb-4">Welcome to the Studio</h1>
+            </div>
+            <div class="col-sm-4-push">
+                <img src="/image/attiny_test_bench_grey.png" class="float-left mt-2 mb-4 ml-4 cover-photo"
+                     alt="ATTiny Test Bench V2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pb-5 pt-4 main-content">
+    <div class="container expandable">
+        <div class="card shadow-sm card-select card-version">
+            <a href="/about" style="display: none;">link</a>
+            <img class="card-img-top rounded border" src="/image/sierra_pfp.jpg" alt="Sierra MacLeod">
+            <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">
+                    Hi! I'm Sierra MacLeod, hopeful future graduate of Montana State University. I'm studying
+                    computer engineering, and this site documents my projects.
+                </p>
+            </div>
+        </div>
+        <div class="container py-3 rounded shadow-sm card-select bg-white line-version">
+            <a href="/about" style="display: none;">link</a>
+            <div class="container" style="max-width: 20rem;">
+                <h5>About Me</h5>
+                <p>
+                    Hi! I'm Sierra MacLeod, hopeful future graduate of Montana State University. I'm studying
+                    computer engineering, and this site documents my projects.
+                </p>
+            </div>
+            <img class="rounded border" src="/image/sierra_pfp.jpg"
+                 alt="Sierra MacLeod" style="max-width: 8rem; max-height: 8rem;">
+        </div>
+    </div>
+
+    <div class="container expandable pt-4">
+        <h1 class="display-3">My Work</h1>
+
+        <!-- Projects link -->
+        <div class="card my-3 py-5 shadow-sm card-select bg-white card-version">
+            <a href="/projects#programming-content" style="display: none;">link</a>
+            <img class="card-img-top py-3 px-1" src="/image/decorator.png" alt="Custom Decorator">
+            <div class="card-body">
+                <h5>Projects</h5>
+                <p>
+                    Programming, 3D modelling and printing, circuit board fabrication
+                    and more!
+                </p>
+            </div>
+        </div>
+        <div class="container my-3 py-3 shadow-sm card-select bg-white line-version">
+            <a href="/projects#programming-content" style="display: none;">link</a>
+            <div class="container" style="max-width: 20rem;">
+                <h5>Projects</h5>
+                <p>
+                    Programming, 3D modelling and printing, circuit board fabrication
+                    and more!
+                </p>
+            </div>
+            <div class="card vert-center rounded border" style="width: 8rem; height: 8rem;">
+                <img class="vert-center px-1" src="/image/decorator.png"
+                     alt="Custom Decorator" style="width: 8rem;">
+            </div>
+        </div>
+
+        <!-- Files link -->
+        <div class="card my-4 shadow-sm card-select bg-white card-version">
+            <a href="/files" style="display: none;">link</a>
+            <img class="card-img-top py-3 px-1" src="/image/bird_bath.png" alt="Bird Bath Bot">
+            <div class="card-body">
+                <h5>Files</h5>
+                <p>
+                    A collection of my open-source designs
+                </p>
+            </div>
+        </div>
+        <div class="container my-3 py-3 shadow-sm card-select bg-white line-version">
+            <a href="/files" style="display: none;">link</a>
+            <div class="container" style="max-width: 20rem;">
+                <h5>Files</h5>
+                <p>
+                    A collection of my open-source designs
+                </p>
+            </div>
+            <div class="card vert-center rounded border" style="width: 8rem; height: 8rem;">
+                <img class="vert-center px-1" src="/image/bird_bath.png" alt="Bird Bath Bot" style="width: 8rem;">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobileSizing"></div>
+
+
+<script src="/js/http_code.jquery.com_jquery-3.3.1.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap-select.min.js"></script>
+<script src="/js/download.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>

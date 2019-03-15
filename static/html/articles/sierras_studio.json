@@ -1,0 +1,32 @@
+{
+  "title": "Sierra's Studio",
+  "subtitle": "Serving Bootstrap via Python",
+  "image": "sierra_s.png",
+  "image_alt": "Sierra's Studio",
+  "author": "Sierra MacLeod",
+  "date": 1552292486,
+  "content": [
+    "Inspiration\n",
+    "-----------\n",
+    "As a computer engineer more focused on robots and microcontrollers most of her life, ",
+    "web programming has not come easily. Though I have made many applications in java and C++, ",
+    "HTML always seemed like a foreign language, something unobtainable to me. Over the past two years, however, I ",
+    "have had many new experiences in web applications while working on my [discord bot](https://www.google.com/) ",
+    "that opened my eyes to the limitless and completely obtainable possibilities opened by web programming, both ",
+    "front-end and back-end.\n \n",
+    "During the summer of 2018, I experimented with HTML, CSS, and HTTP processing in python. ",
+    "I wrote my first website that summer, seen [here](https://olliebot.cc). This site was meant to provide useful ",
+    "information about the bot and was powered by a Python HTTP library I authored that extended Python's basic ",
+    "HTTP server class. While the result of this project was inefficient, it was quite fun to work on and gave me ",
+    "quite invaluable experience with how the internet works. All that programming and experimenting is the inspiration ",
+    "for this website, Sierra's Studio.\n \n",
+    "Structure\n",
+    "---------\n",
+    "This website makes use of three major libraries: Flask (Python), Gunicorn (Python), and Bootstrap (CSS/JS). ",
+    "The latter is likely more well-known, as it powers quite a few websites. The combination of the three provides ",
+    "the means to create a highly mutable and easily constructed website that is aesthetically pleasing.\n \n",
+    "Code\n",
+    "----\n",
+    "You can find the open-source code for the website [here]()."
+  ]
+}

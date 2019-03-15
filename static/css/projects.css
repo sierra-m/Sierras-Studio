@@ -1,0 +1,8 @@
+#projects-content a {
+    text-decoration: none;
+    color: #55007f;
+}
+
+#projects-content a:hover {
+    color: #7f5593;
+}
